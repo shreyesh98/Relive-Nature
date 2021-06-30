@@ -1,0 +1,232 @@
+*, body{
+ margin: 0px;
+ padding: 0px;
+}
+
+div.container-fluid{
+    padding: 0px 25px 0px 0px;
+}
+
+a.navbar-brand {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar-expand-lg .navbar-collapse {  
+    justify-content: space-around;
+}
+
+button.navbar-toggler{
+    background: #99cc00;
+    padding: 4px 5px;
+}
+
+li.nav-item{
+    padding: 0px 25px 0px 25px;
+}
+
+.navbar{
+    font-family: 'Newsreader', serif;
+    font-weight: 550;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+#navbarNavDropdown{
+    text-align: center;
+}
+/* ----------------------------------------------------------------------- */
+
+.container {
+    position: relative;
+    text-align: center;
+    color: green;
+    font-size: 25px;
+    font-weight: 550;
+    font-family: 'Courgette', cursive;
+  }
+  
+  .bottom-left {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+  }
+  
+  .bottom-right {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+  }
+
+  .animate__animated.animate__fadeInLeft , .animate__animated.animate__fadeInRight {
+    --animate-duration: 8s;
+    --animate-repeat: 1;
+  }
+
+/* ----------------------------------------------------------------------- */
+
+.wwd {
+  color: whitesmoke;
+  margin: 0px;
+  padding: 100px 0px;
+  background-repeat: no-repeat;
+  background-image: url(https://img.freepik.com/free-photo/hand-holding-tree-blur-green-nature_34152-1963.jpg?size=626&ext=jpg);
+  background-position: center;
+  background-size: 2000px;
+}
+.wwd h1{
+  font-weight: 700;
+}
+
+.wwd h1, .wwd h2, .wwd p{
+  margin: 25px;
+}
+
+.wwd h2{
+  font-family: 'Courgette', cursive;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.mv{
+  text-align: center;
+}
+
+.mv h3{
+  font-weight: 650;
+  font-size: 35px;
+  margin-top: 40px;
+  color: green;
+  text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.mv h6{
+  font-family: 'Bree Serif', serif;
+  color: #545454;
+  padding: 0px 150px;
+}
+
+
+/* ----------------------------------------------------------------------- */
+
+.content {
+  text-align: center;
+}
+
+ .content p {
+   font-size: 18px;
+   padding: 15px 30px 0px 30px;
+  font-family: 'Bree Serif', serif;
+  color: #545454;
+ }
+
+/* ----------------------------------------------------------------------- */
+
+.divider {
+  display: flex;
+}
+.divider:before, .divider:after {
+  content: "";
+  flex: 1;
+}
+
+.line {
+  align-items: center;
+  margin: 1em -1em;
+}
+.line:before, .line:after {
+  height: 1px;
+  margin: 0 1em;
+}
+ 
+.glow:before, .glow:after {
+  height: 6px;
+  -webkit-filter: blur(5px);
+  border-radius: 5px;
+}
+.glow:before {
+  background: linear-gradient(to right, greenyellow, green);
+}
+.glow:after {
+  background: linear-gradient(to left, greenyellow, green);
+}
+
+h2.divider.line.glow{
+  margin-top: 0px;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.ayct h2, .content h2{
+   margin: 50px 0px 5px 0px;
+   font-weight: 650;
+  color: green;
+  text-transform: uppercase;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ayct p{
+  font-size: 18px;
+  padding: 30px 30px 0px 30px;
+  font-family: 'Bree Serif', serif;
+  color: #545454;
+}
+
+div.button{
+  text-align: center;
+  font-family: 'Courgette', cursive;
+}
+/* ----------------------------------------------------------------------- */
+
+footer{
+  background: rgb(65, 64, 64);
+  color: white;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+}
+
+footer h3{
+  font-family: 'Benne', serif;
+}
+
+footer p{
+  margin: 0px;
+  padding: 0px;
+}
+
+i.fas.fa-envelope.fa-2x::before, i.fas.fa-phone-square.fa-2x::before{
+  margin: 0px 10px;
+}
+
+i.fab.fa-facebook.fa-2x::before, i.fab.fa-whatsapp.fa-2x::before, i.fab.fa-twitter.fa-2x::before, i.fab.fa-instagram.fa-2x::before, .col-lg-6{
+  padding: 10px;
+}
+
+div.social{
+    margin-top: 15px;
+}
+
+.col-lg-6.content2 p{
+  padding: 0px 40px;
+}
+
+footer p.details{
+  font-size: 18px;
+}
+
+.footer{
+padding: 30px;
+}

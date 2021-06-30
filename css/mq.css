@@ -1,0 +1,178 @@
+@media (min-width: 279px) and (max-width: 740px) {
+  body{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  div.container, .navbar, footer, footer p.details{
+    font-size: 13px;
+  }
+
+.bottom-left {
+  position: absolute;
+  bottom: 50px;
+  left: 10px;
+}
+
+.top-left {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+}
+
+.top-right {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 30px;
+  right: 10px;
+}
+
+.content p, .wwd p, .ayct p, footer h5{
+ font-size: 15px;
+}
+
+.wwd h1, footer h3{
+  font-size: 19px;
+}
+.mv h3{
+  font-size: 23px;
+} 
+.wwd h2{
+  font-size: 17px
+}
+.wwd h1, .wwd h2, .wwd p, .content p, .mv h6{
+  margin: 15px;
+}
+
+.mv h6{
+padding: 0px 50px;
+margin-top: 15px;
+}
+
+.ayct h2, .content h2{
+ font-size: 22px;
+}
+
+.wwd {
+  padding: 50px 0px;
+  margin: 0px;
+  background-size: 1600px;
+  color: whitesmoke;
+  background-position: unset;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+  *, body{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  #svg{
+      width: 500px;
+       height: 500px;
+       margin-left: 100px;
+  }
+  div.container, footer h5{
+    font-size: 17px;
+  } 
+  .navbar{
+    font-size: 15px;
+  }
+  .bottom-left{
+    left: 10px;
+  }
+  .bottom-right{
+    right: 20px;
+  }
+  .wwd h1{
+    font-size: 19px;
+  }
+  .wwd h2, footer h3{
+    font-size: 17px
+  }
+  .wwd h1, .wwd h2, .wwd p{
+    margin: 15px;
+  }
+
+  .mv h6{
+    padding: 0px 100px;
+    margin-top: 15px;
+    }
+
+  .wwd {
+    padding: 50px 0px;
+    margin: 0px;
+    background-size: 2000px;
+    color: white;
+    background-position: unset;
+  }
+  .wwd p, .ayct p, footer p, footer p.details, .content p{
+    font-size: 15px;
+  }
+  .ayct h2, .content h2{
+    font-size: 25px;
+   }  
+   .mv h3{
+     font-size: 27px;
+   } 
+}
+
+  @media (min-width: 1024px) and (max-width: 1366px){
+    div.container , .navbar, .wwd p, .ayct p, footer, footer p.details, .content p, .mv h6{
+      font-size: 15px;
+    }
+    #svg{
+        width: 500px;
+         height: 500px;
+         margin-left: 255px;
+    } 
+    .bottom-left {
+      position: absolute;
+      bottom: 100px;
+      left: 4px;
+    }
+    .wwd h1{
+      font-size: 19px;
+    }
+    .wwd h2, footer h3, footer h5{
+      font-size: 17px
+    }
+    .wwd h1, .wwd h2, .wwd p{
+      margin: 15px;
+    }
+    .wwd {
+      padding: 100px 0px;
+      margin: 0px;
+      background-size: 2000px;
+    }
+    .ayct h2, .content h2{
+      font-size: 27px;
+     }  
+     .mv h3{
+       font-size: 30px;
+     } 
+     .mv h6{
+      padding: 0px 70px;
+      margin-top: 15px;
+      }  
+  }
+
+  @media screen and (min-width: 1200px) {
+    #svg{
+        width: 500px;
+         height: 500px;
+         margin-left: 400px;
+    }
+  }
+
+
+
+
+
+
